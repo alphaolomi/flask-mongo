@@ -25,7 +25,7 @@ services:
       - backend
 
   mongodb:
-    image: mongo:4.4.0
+    image: mongo:4.4.1
     container_name: mongodb
     restart: unless-stopped
     command: mongod --auth
